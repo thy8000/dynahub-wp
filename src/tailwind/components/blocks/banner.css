@@ -1,7 +1,0 @@
-.wp-admin .dynahub-block-banner {
-  @apply !pointer-events-none;
-}
-
-.dynahub-block-banner {
-  @apply !flex !justify-center;
-}
