@@ -1,3 +1,18 @@
 {
-    "version": 3
+    "version": 3,
+    "settings": {
+        "spacing": {
+            "margin": true,
+            "padding": true
+        },
+        "color": {
+            "palette": [
+                {
+                    "slug": "blue-900",
+                    "color": "#12253E",
+                    "name": "Blue 900"
+                }
+            ]
+        }
+    }
 }

@@ -1,0 +1,11 @@
+.wp-block-search__button-inside .wp-block-search__inside-wrapper {
+    background-color: var(--wp--preset--color--blue-900);
+}
+
+.wp-block-search__button-inside .wp-block-search__input {
+    background-color: var(--wp--preset--color--blue-900);
+}
+
+.wp-block-search__button-inside .wp-block-search__input::placeholder {
+    color: var(--wp--preset--color--white);
+}
