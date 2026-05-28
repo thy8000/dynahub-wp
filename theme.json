@@ -3,16 +3,31 @@
     "settings": {
         "spacing": {
             "margin": true,
-            "padding": true
+            "padding": true,
+            "blockGap": true
         },
         "color": {
             "palette": [
                 {
-                    "slug": "blue-900",
+                    "slug": "blue-1",
                     "color": "#12253E",
-                    "name": "Blue 900"
+                    "name": "Blue 1"
+                },
+                {
+                    "slug": "blue-2",
+                    "color": "#8199B7",
+                    "name": "Blue 2"
+                },
+                {
+                    "slug": "blue-3",
+                    "color": "#3A506B",
+                    "name": "Blue 3"
                 }
+
             ]
+        },
+        "border": {
+            "radius": true
         }
     }
 }

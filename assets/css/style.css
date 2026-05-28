@@ -1,11 +1,35 @@
-.wp-block-search__button-inside .wp-block-search__inside-wrapper {
-    background-color: var(--wp--preset--color--blue-900);
+/*
+* TODO: Separate CSS into smaller files and minify
+*/
+
+/*
+
+Patterns - Search
+
+*/
+.pattern-search .wp-block-search__inside-wrapper {
+    background-color: var(--wp--preset--color--blue-1);
+
+    border: 2px solid var(--wp--preset--color--blue-3);
 }
 
-.wp-block-search__button-inside .wp-block-search__input {
-    background-color: var(--wp--preset--color--blue-900);
+.pattern-search .wp-block-search__input {
+    background-color: var(--wp--preset--color--blue-1);
+
+    padding: 14px 21px;
+
+    color: var(--wp--preset--color--blue-2);
 }
 
-.wp-block-search__button-inside .wp-block-search__input::placeholder {
-    color: var(--wp--preset--color--white);
+.pattern-search .wp-block-search__input::placeholder {
+    color: var(--wp--preset--color--blue-2);
 }
+
+.pattern-search .wp-block-search__button {
+    background-color: transparent;
+}
+/*
+
+Patterns - Search
+
+*/
