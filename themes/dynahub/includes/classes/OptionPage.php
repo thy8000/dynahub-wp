@@ -55,6 +55,24 @@ class OptionPage {
 						'endpoint'  => 0,
 					),
 					array(
+						'key'        => 'field_header_logo',
+						'label'      => 'Logo do Site',
+						'name'       => 'header_logo',
+						'type'       => 'group',
+						'layout'     => 'block',
+						'sub_fields' => array(
+							array(
+								'key'           => 'field_logo_image',
+								'label'         => 'Imagem do Logo',
+								'name'          => 'logo_image',
+								'type'          => 'image',
+								'return_format' => 'array',
+								'preview_size'  => 'medium',
+								'library'       => 'all',
+							),
+						),
+					),
+					array(
 						'key'        => 'field_redes_sociais',
 						'label'      => 'Redes Sociais',
 						'name'       => 'social_share',
